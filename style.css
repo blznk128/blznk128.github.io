@@ -1,3 +1,21 @@
+a.navbar-brand{
+    background: black;
+    color: white;
+}
+.bg-light {
+    background: black!important;
+    background: url(./MilkyWay_TA-147851475.jpg);
+}
+
+.badge-secondary {
+    background: black;
+}
+#foot {
+    color: white;
+}
+body {
+    background: url(./MilkyWay_TA-147851475.jpg);
+}
 .jumbotron-fluid  {
     width: 80%;
     margin-left: auto;
@@ -7,14 +25,17 @@
 
 .navbar-brand {
     width: 100%;
-    background: darkgrey;
+    
     text-align: center;
+    color: white;
 }
 
 .jumbotron {
     margin-top: 35px;
     width: 870px;
     margin-left: 285px;
+    background: black;
+    color: white;
 }
 
 .container-fluid {
@@ -33,8 +54,10 @@
 .card-footer:last-child {
     margin-top: 40px;
     text-align: center;
+    color: white;
 }
 
 p {
     text-align: center;
 }
+
