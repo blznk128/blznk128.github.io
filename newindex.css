@@ -1,6 +1,7 @@
 .list-group {
     width: 325px;
     margin-top: 80px;
+    position: fixed;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h1 {
     background: #1a1a1a;
     padding: 20px;
     width: 325px;
-    height: 349px;
+    height: 685px;
 }
 
 body {
