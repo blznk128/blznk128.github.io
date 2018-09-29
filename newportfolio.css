@@ -1,0 +1,51 @@
+.list-group {
+    width: 325px;
+    margin-top: 80px;
+    position: fixed;
+    color: black;
+}
+
+#primary {
+    background: #1a1a1a;
+    padding: 20px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    width: 325px;
+}
+
+#secondary {
+    background: #1a1a1a;
+    padding: 20px;
+    width: 325px;
+    height: 1200px;
+}
+
+img {
+    margin-top: 40px;
+}
+
+.jumbotron {
+    float: right;
+    width: 1258px;
+    margin-right: 50px;
+    height: 1125px;
+}
+
+body {
+    background: gainsboro!important;
+}
+
+#psychic, #crystal, #trivia, #giphy, #train {
+    padding: 10px;
+    background: red;
+    width: 250px;
+    position: absolute;
+    bottom: 185px;
+    text-align: center;
+}
+
+.list-group-item.active {
+    background: gainsboro!important;
+    color: black!important;
+}

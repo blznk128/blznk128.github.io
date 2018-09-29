@@ -1,0 +1,46 @@
+.list-group {
+    width: 325px;
+    margin-top: 80px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: auto;
+    color: blue;
+}
+
+#primary {
+    background: #1a1a1a;
+    padding: 20px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    width: 325px;
+}
+
+#title {
+    padding: 20px;
+    color: yellow;
+}
+
+#secondary {
+    background: #1a1a1a;
+    padding: 20px;
+    width: 325px;
+    height: 349px;
+}
+
+body {
+    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/3840x2160/172003.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-group-item.active {
+    background: gainsboro!important;
+    color: black!important;
+}
