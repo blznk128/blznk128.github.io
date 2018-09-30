@@ -41,3 +41,22 @@ body {
 .links {
     color: blue;
 }
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+    .listGroup {
+        margin-left: 360px;
+        width: 320px;
+        float: none;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 300px) {
+    .listGroup {
+        margin-right: 90px;
+        width: 295px;
+        }
+    #primary, #secondary {
+        display: none;
+    }
+}

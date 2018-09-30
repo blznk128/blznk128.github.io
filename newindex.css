@@ -45,3 +45,10 @@ body {
     background: gainsboro!important;
     color: black!important;
 }
+
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+    h1 {
+        margin-left: 315px;
+        margin-right: auto;
+    }
+}
