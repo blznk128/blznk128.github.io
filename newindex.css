@@ -1,54 +1,31 @@
-.list-group {
-    width: 325px;
-    margin-top: 80px;
-    position: fixed;
+.sidenav .user-view .circle {
+    width: 150px;
+    height: 130px;
+    transform: rotate(270deg);
+    margin-left: 35px;
 }
 
-h1 {
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    text-align: center;
-    margin-left: 600px;
-    margin-right: auto;
-    color: blue;
+.sidenav .user-view .name {
+    font-size: 25px;
+    margin-left: 26px;
 }
 
-#primary {
-    background: #1a1a1a;
-    padding: 20px;
-    height: 120px;
-    position: absolute;
-    top: 0px;
-    width: 325px;
+.waves-effect {
+    width: 307px;
+    background:black;
 }
 
-#title {
-    padding: 20px;
-    color: yellow;
-}
-
-#secondary {
-    background: #1a1a1a;
-    padding: 20px;
-    width: 325px;
-    height: 685px;
+.sidenav.sidenav-fixed {
+    background: black;
 }
 
 body {
-    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/3840x2160/172003.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(./mountain_at_night-wallpaper-1920x1200.jpg)
 }
 
-.list-group-item.active {
-    background: gainsboro!important;
-    color: black!important;
-}
-
-@media only screen and (max-width: 800px) and (min-width: 300px) {
-    h1 {
-        margin-left: 315px;
-        margin-right: auto;
-    }
+#time {
+    margin-left: 670px;
+    color: yellow;
+    margin-top: 125px;
+    font-size: 65px;
 }
