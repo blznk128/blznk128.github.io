@@ -1,0 +1,77 @@
+.sidenav .user-view .circle {
+    width: 145px;
+    height: 136px;
+    transform: rotate(358deg);
+    margin-left: 35px;
+}
+
+.sidenav .user-view .name {
+    font-size: 25px;
+    margin-left: 26px;
+}
+
+.waves-effect {
+    width: 307px;
+    background:black;
+}
+
+.sidenav.sidenav-fixed {
+    background: black;
+}
+
+
+#time {
+    margin-left: 670px;
+    color: yellow;
+    margin-top: 125px;
+    font-size: 65px;
+    position: absolute;
+}
+
+.another {
+    margin-top: 20px;
+}
+
+.divider {
+    background: yellow;
+}
+
+#introImage {
+    background: url("../images/mountain_at_night-wallpaper-1920x1200.jpg");
+    height: 900px;
+}
+body {
+    background: black;
+}
+
+#aboutMe, #myPortfolio {
+    background: darkslateblue;
+    width: 82%;
+    margin-left: 300px;
+}
+
+.display-4 {
+    text-align: center
+}
+
+.familyPicture {
+    margin-left: 37%
+}
+
+.carouselPics {
+    width: 300px!important;
+    position: relative;
+    bottom: 125px;
+}
+
+#picThree {
+    transform: rotate(358deg)!important;
+}
+
+.row {
+    margin-left: 280px;
+}
+
+p {
+    color: white;
+}

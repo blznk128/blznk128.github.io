@@ -7,65 +7,146 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./newindex.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 <body>
+
+<div id ="introImage">
 <div id="particles-js">
-    <div class="col s12 m2">
-        <div id="time"></div>
-      </div>
+  <div class="col s12 m2">
+    <div id="time"></div>
+  </div>
   <ul id="slide-out" class="sidenav sidenav-fixed">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="https://media.wired.com/photos/5b7f64cbbe2f8d3a624b77b2/4:3/w_2000,c_limit/SPoW_82318_01.jpg">
-      </div>
-      <img class="circle" src="./this one.jpg"></a>
-      <span class="white-text name">Benny Borunda</span></a>
-    </div></li>
-    <a class="waves-effect waves-red btn-large" href="./newaboutme.html">About Me</a>
-    <li><div class="divider"></div></li>
-    <a class="waves-effect waves-light btn-large" href="./newportfolio.html">Portfolio</a>
-    <li><div class="divider"></div></li>
-    <a class="waves-effect waves-white btn-large" href="./contactme.html">Contact Me</a>
-    <li><div class="divider"></div></li>
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="https://media.wired.com/photos/5b7f64cbbe2f8d3a624b77b2/4:3/w_2000,c_limit/SPoW_82318_01.jpg">
+        </div>
+          <img class="circle" src="./new pic of me.jpg">
+          <span class="white-text name">Benny Borunda</span>
+      </div></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <a class="waves-effect waves-red btn-large" href="#aboutJump">About Me</a>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <a class="waves-effect waves-light btn-large" href="#portfolioJump">Portfolio</a>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <a class="waves-effect waves-white btn-large" href="#">Contact Information</a>
+    <a href="https://www.facebook.com/ben.borunda"target="_blank" class="list-group-item list-group-item-action"><span class="links">Facebook Profile</span></a>
+    <br><br>
+    <a href="https://www.linkedin.com/in/benny-borunda-09a46715b"target="_blank" class="list-group-item list-group-item-action disabled"><span class="links">Linkedin Profile</span></a></a>
+    <br><br>
+    <a href="https://github.com/blznk128" target="_blank" class="list-group-item list-group-item-action disabled"><span class="links">Github</span></a></a>
+    <p>
+      Email Address: blznk128@yahoo.com
+    </p>
+    <p>
+      Phone Number: 801 502 9921
+    </p>
+
+    <!-- <li><div class="divider"></div></li> -->
   </ul>
+</div>
+</div>
   <div id = "container">
       <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-  
 </div>
+<div id = "aboutMe">
+    <a name="aboutJump"></a>
+  <h1 class="display-4">About me</h1>
+    <hr class="my-4">
+      <div class="rowOne">
+        <div class="col-sm-6">
+          <p>
+            My name is Benito Borunda Jr, I like to go by Benny, guess because I've been called that my whole life.
+            I was born in Perryton Texas, it is a small town near Oklahoma, it has a population of about 8 thousand.
+            I currently live in Taylorsville Utah. I'm married to a awesome wife, and I have two girls.
+            I'm currently a beverage delivery driver, been doing that for almost 10 years. This job has made me a very hard
+            worker because you have to work in the extreme heat and cold, rain and snow and everything in between. It also requires
+            about 10 or more hours a day, sometimes that shoots up to 65 or more hours a week.                    
+            I'm currently enrolled in the University of Utah web development bootcamp. I'm amazed by how much I love coding and building
+            websites. I'm looking forward to a new career in web development, I'm also looking forward to working with others, I enjoy
+            communicating with people.
+          </p>
+        </div>
+    
+            <div class="carousel">
+                <a class="carousel-item" ><img class = "carouselPics" src="./assets/images/five.JPG"></a>
+                <a class="carousel-item" ><img class = "carouselPics" src="./assets/images/two.jpg"></a>
+                <a class="carousel-item" ><img class = "carouselPics" src="./assets/images/one.JPG"></a>
+                             
+        </div>
+      </div>         
 </div>
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script>
-        particlesJS.load('particles-js', 'particles.json', function(){
-      console.log('particles.json loaded...');
-    });
-     $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-  function checkTime(i) {
-  if (i < 10) {
-    i = "0" + i;
-  }
-  return i;
-}
 
-function startTime() {
-  var today = new Date();
-  var h = today.getHours();
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  // add a zero in front of numbers<10
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('time').innerHTML = "Current Time: " + h + ":" + m + ":" + s;
-  t = setTimeout(function() {
-    startTime()
-  }, 500);
-}
-startTime();
-  M.AutoInit();
-  instance.open();
-      </script>
+<a name="portfolioJump"></a>
+<div id = "myPortfolio">
+<h1 class="display-4">My Portfolio</h1>
+  <hr class="my-4">
+  <div class="row">
+    <div class="col s6">
+      <a href="https://blznk128.github.io/Psychic-Game/"><img src="http://i.huffpost.com/gen/1216238/images/o-SHOCKED-PSYCHIC-facebook.jpg" width="250px" height="250px" alt="psychic image" /></a>
+      <div id="psychic">Psychic-Game</div>
+        <a href="https://github.com/blznk128/Psychic-Game"><div class="github">Github Code</div></a>
+    </div>
+    <div class="col s6">
+      <a href="https://blznk128.github.io/unit-4-game/"><img src="https://vignette.wikia.nocookie.net/powerlisting/images/d/d3/2013-10-Blue-Crystal-Abstract.jpg/revision/latest?cb=20160227092023&format=original" width="250px" height="250px" alt="crystal pic"/></a>
+      <div id="crystal">Crystal-Game</div>
+        <a href="https://github.com/blznk128/unit-4-game"><div class="github">Github Code</div></a>
+    </div>
+  </div> 
+<div class="row">
+  <div class="col s6">
+    <a href="https://blznk128.github.io/TriviaGame/"><img src="https://images4.alphacoders.com/823/thumb-1920-82368.jpg" width="250px" height="250px" alt="warcraft picture"/></a>
+      <div id="trivia">Trivia-Game</div>
+        <a href="https://github.com/blznk128/TriviaGame"><div class="github">Github Code</div></a>
+  </div>
+  <div class="col s6">
+    <a href="https://blznk128.github.io/GiphyHomework/"><img src="https://pbs.twimg.com/profile_images/1002272769352978433/9S4QWSR0_400x400.jpg" width="250px" height="250px" alt="giphy picture"></a>
+      <div id="giphy">Giphys</div>
+        <a href="https://github.com/blznk128/GiphyHomework"><div class="github">Github Code</div></a>
+  </div>
+</div>
+<div class="row">
+  <div class="col s6">
+    <a href="https://blznk128.github.io/TrainScheduler/"><img src="https://www.virginexperiencedays.co.uk/content/img/product/large/one-night-break-with-12113620.jpg" width="250px" height="250px"></a>
+      <div id="train">Train-Schedular</div>
+        <a href="https://github.com/blznk128/TrainScheduler"><div class="github">Github Code</div></a>
+  </div>
+  <div class="col s6">
+    <a href="https://github.com/blznk128/liri-node-app"><img src="https://alln-extcloud-storage.cisco.com/ciscoblogs/bot-460x230.jpg" width="250px" height="250px"></a>
+      <div id="train">LiriBot</div>
+        <a href="https://github.com/blznk128/liri-node-app"><div class="github">LiriBot</div></a>
+  </div>
+</div>  
+<div class="row">
+  <div class="col s6">
+    <a href="https://github.com/blznk128/node-mysql"><img src="https://boygeniusreport.files.wordpress.com/2017/10/amazon.jpg?quality=98&strip=all&w=782" width="250px" height="250px"></a>
+      <div id="train">Bamazon</div>
+        <a href="https://github.com/blznk128/node-mysql"><div class="github">Github Code</div></a>
+  </div>
+  <div class="col s6">
+    <a href="https://intense-basin-30733.herokuapp.com/"><img src="https://cdn.vox-cdn.com/thumbor/yx8IVnVHKHVYq_wGjLo8oK2TJ8U=/0x142:2592x2086/1200x800/filters:focal(0x142:2592x2086)/cdn.vox-cdn.com/uploads/chorus_image/image/40348734/friendscast.0.0.jpg" width="250px" height="250px"></a>
+      <div id="train">FriendFinder</div>
+        <a href="https://github.com/blznk128/FriendFinder"><div class="github">Github Code</div></a>
+  </div>              
+</div>         
+<div class="row">
+  <div class="col-sm-6">
+    <a href="https://radiant-castle-33104.herokuapp.com/"><img src="https://ih1.redbubble.net/image.174587692.6037/ap,550x550,16x12,1,transparent,t.u8.png" width="250px" height="250px"></a>
+      <div id="train">Burger Logger</div>
+        <a href="https://github.com/blznk128/Burger-Logger"><div class="github">Github Code</div></a>
+  </div>
+</div>    
+</div>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="./assets/js/particles.js"></script>
+<script src="./assets/js/time.js"></script>
 </body>
 </html>
