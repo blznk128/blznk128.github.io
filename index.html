@@ -1,189 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="./assets/css/index.css">
-</head>
-<body>
 
-<div id ="introImage">
-<div id="particles-js">
-  <div class="col s12 m2">
-    <div id="time"></div>
-  </div>
-  <ul id="slide-out" class="sidenav sidenav-fixed">
-    <li>
-      <div class="user-view">
-        <div class="background">
-          <img src="https://media.wired.com/photos/5b7f64cbbe2f8d3a624b77b2/4:3/w_2000,c_limit/SPoW_82318_01.jpg">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BB</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Benny Borunda</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            </li>
+          </ul>
         </div>
-          <img class="circle" src="./new pic of me.jpg">
-          <span class="white-text name">Benny Borunda</span>
-      </div></li>
-    <li>
-      <div class="divider"></div>
-    </li>
-    <a class="waves-effect waves-red btn-large" href="#aboutJump">About Me</a>
-    <li>
-      <div class="divider"></div>
-    </li>
-    <a class="waves-effect waves-light btn-large" href="#portfolioJump">Portfolio</a>
-    <li>
-      <div class="divider"></div>
-    </li>
-    <a class="waves-effect waves-white btn-large" href="#">Contact Information</a>
-    <a href="https://www.facebook.com/ben.borunda"target="_blank" class="list-group-item list-group-item-action"><span class="links">Facebook Profile</span></a>
-    <br><br>
-    <a href="https://www.linkedin.com/in/benny-borunda-09a46715b"target="_blank" class="list-group-item list-group-item-action disabled"><span class="links">Linkedin Profile</span></a></a>
-    <br><br>
-    <a href="https://github.com/blznk128" target="_blank" class="list-group-item list-group-item-action disabled"><span class="links">Github</span></a></a>
-    <p>
-      Email Address: blznk128@yahoo.com
-    </p>
-    <p>
-      Phone Number: 801 502 9921
-    </p>
+      </div>
+    </nav>
 
-    <!-- <li><div class="divider"></div></li> -->
-  </ul>
-</div>
-</div>
-  <div id = "container">
-      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-</div>
-<div id = "aboutMe">
-    <a name="aboutJump"></a>
-  <h1 class="display-4">About me</h1>
-    <hr class="my-4">
-      <div class="rowOne">
-        <div class="col-sm-6">
-          <p>
-            My name is Benito Borunda Jr, but everyone calls me Benny.
-            I was born in Perryton, Texas, and lived there for 14 years until I moved to Utah with my family.
-            I currently live in Taylorsville, Utah. I've been with my awesome wife for over 10 years, and we have two beautiful girls.
-            I'm currently a beverage delivery driver. I've been in the beverage industry for almost 10 years. This job has taught me to be a hard
-            worker. You have to work in the extreme heat and cold, rain and snow and everything in between until the job is done. It also requires
-            about 10 or more hours a day, sometimes that shoots up to 65 or more hours a week. Lets just say I rather have a career using my brain instead of my back.                    
-            I'm currently enrolled in the University of Utah web development bootcamp. I'm amazed by how much I love coding and building
-            websites. I'm looking forward to a new career in web development. I'm also looking forward to working with others. I'm an easy going guy and enjoy
-            communicating with people.
-          </p>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Benny Borunda</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">I am about <span class="display-4"></span></h2>
         </div>
-            <div class="carousel">
-                <a class="carousel-item" ><img class = "carouselPics" src="https://scontent.fslc1-1.fna.fbcdn.net/v/t1.0-9/45148801_10213619070019782_4780958689676754944_n.jpg?_nc_cat=111&_nc_ht=scontent.fslc1-1.fna&oh=1f5b6d80340001874d04189964ce457c&oe=5C695ECE"></a>
-                <a class="carousel-item" ><img class = "carouselPics" src="./assets/images/two.jpg"></a>
-                <a class="carousel-item" ><img class = "carouselPics" src="./assets/images/one.JPG"></a>          
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">About Me</h2>
+            <p class="text-white-50">Front-end Web Developer with 10 years in the beer business. As a partner of the business I learned perseverance and how to work well with others. I realized I wanted pursue another passion of mine and build wonderful things with tools such as React and JavaScript. In order to achieve this goal I completed the Full Stack Bootcamp program through the University of Utah where expanded my knowledge in additional skills like html,css, and express. 
+
+              I believe my skills in leadership and team building combined with my technical skills make me an asset to any development team.</p>
+          </div>
         </div>
-      </div>         
-</div>
+        <img id="me" src="./img/new pic of me.jpg"  alt="picture of Benny">
+      </div>
+    </section>
 
-<a name="portfolioJump"></a>
-<div id = "myPortfolio">
-<h1 class="display-4">My Portfolio</h1>
-  <hr class="my-4">
-<h2 class = "personalProjects">My Personal Projects</h2>
-  <div class="row">
-    <div class="col s6">
-      <a href="https://blznk128.github.io/Psychic-Game/"><img src="http://i.huffpost.com/gen/1216238/images/o-SHOCKED-PSYCHIC-facebook.jpg" width="250px" height="250px" alt="psychic image" /></a>
-      <div class = "projectTag">Psychic-Game</div>
-        <a href="https://github.com/blznk128/Psychic-Game"><div class="github">Github Code</div></a>
-    </div>
-    <div class="col s6">
-      <a href="https://blznk128.github.io/unit-4-game/"><img src="https://vignette.wikia.nocookie.net/powerlisting/images/d/d3/2013-10-Blue-Crystal-Abstract.jpg/revision/latest?cb=20160227092023&format=original" width="250px" height="250px" alt="crystal pic"/></a>
-      <div class = "projectTag">Crystal-Game</div>
-        <a href="https://github.com/blznk128/unit-4-game"><div class="github">Github Code</div></a>
-    </div>
-  </div> 
-<div class="row">
-  <div class="col s6">
-    <a href="https://blznk128.github.io/TriviaGame/"><img src="https://images4.alphacoders.com/823/thumb-1920-82368.jpg" width="250px" height="250px" alt="warcraft picture"/></a>
-      <div class = "projectTag">Trivia-Game</div>
-        <a href="https://github.com/blznk128/TriviaGame"><div class="github">Github Code</div></a>
-  </div>
-  <div class="col s6">
-    <a href="https://blznk128.github.io/GiphyHomework/"><img src="https://pbs.twimg.com/profile_images/1002272769352978433/9S4QWSR0_400x400.jpg" width="250px" height="250px" alt="giphy picture"></a>
-      <div class = "projectTag">Giphys</div>
-        <a href="https://github.com/blznk128/GiphyHomework"><div class="github">Github Code</div></a>
-  </div>
-</div>
-<div class="row">
-  <div class="col s6">
-    <a href="https://blznk128.github.io/TrainScheduler/"><img src="https://www.virginexperiencedays.co.uk/content/img/product/large/one-night-break-with-12113620.jpg" width="250px" height="250px"></a>
-      <div class = "projectTag">Train-Scheduler</div>
-        <a href="https://github.com/blznk128/TrainScheduler"><div class="github">Github Code</div></a>
-  </div>
-  <div class="col s6">
-    <a href="https://github.com/blznk128/liri-node-app"><img src="https://alln-extcloud-storage.cisco.com/ciscoblogs/bot-460x230.jpg" width="250px" height="250px"></a>
-      <div class = "projectTag">Liri Bot</div>
-        <a href="https://github.com/blznk128/liri-node-app"><div class="github">LiriBot</div></a>
-  </div>
-</div>  
-<div class="row">
-  <div class="col s6">
-    <a href="https://github.com/blznk128/node-mysql"><img src="https://boygeniusreport.files.wordpress.com/2017/10/amazon.jpg?quality=98&strip=all&w=782" width="250px" height="250px"></a>
-      <div class = "projectTag">Bamazon</div>
-        <a href="https://github.com/blznk128/node-mysql"><div class="github">Github Code</div></a>
-  </div>
-  <div class="col s6">
-    <a href="https://intense-basin-30733.herokuapp.com/"><img src="https://cdn.vox-cdn.com/thumbor/yx8IVnVHKHVYq_wGjLo8oK2TJ8U=/0x142:2592x2086/1200x800/filters:focal(0x142:2592x2086)/cdn.vox-cdn.com/uploads/chorus_image/image/40348734/friendscast.0.0.jpg" width="250px" height="250px"></a>
-      <div class = "projectTag">Friend Finder</div>
-        <a href="https://github.com/blznk128/FriendFinder"><div class="github">Github Code</div></a>
-  </div>              
-</div>         
-<div class="row">
-  <div class="col s6">
-    <a href="https://radiant-castle-33104.herokuapp.com/"><img src="https://ih1.redbubble.net/image.174587692.6037/ap,550x550,16x12,1,transparent,t.u8.png" width="250px" height="250px"></a>
-      <div class = "projectTag">Burger Logger</div>
-        <a href="https://github.com/blznk128/Burger-Logger"><div class="github">Github Code</div></a>
-  </div>
-  <div class="col s6">
-    <a href="https://whispering-mountain-58717.herokuapp.com/"><img src="http://bestanimations.com/Food/FastFood/hamburger-animated-gif-9.gif" width="250px" height="250px"></a>
-      <div class = "projectTag">Burger The Sequel</div>
-        <a href="https://github.com/blznk128/Burger-Sequel"><div class="github">Github Code</div></a>
-  </div>
-</div>
-<div class="row">
-  <div class="col s6">
-    <a href="https://ancient-beyond-80294.herokuapp.com/"><img src="https://cdn3.bigcommerce.com/s-vw57mn/products/40160/images/117175/Hero-Arts-Cling-Stamps-Newspaper-Bold-Prints-857009156494_image1__21010.1517348776.600.600.jpg?c=2" width="250px" height="250px"></a>
-      <div class = "projectTag">Mongo Scraper</div>
-        <a href="https://github.com/blznk128/Mongo-Scraper"><div class="github">Github Code</div></a>
-  </div>
-  <div class="col s6">
-    <a href="https://floating-refuge-31933.herokuapp.com/"><img src="https://upload.wikimedia.org/wikipedia/en/4/42/Narcos%2C_Mexico_-_Title_card.png" width="250px" height="250px"></a>
-      <div class = "projectTag">Clicky Game</div>
-        <a href="https://github.com/blznk128/Burger-Sequel"><div class="github">Github Code</div></a>
-  </div>
-</div>
-<div class="row">
-  <div class="col s6">
-    <a href="https://enigmatic-bayou-97522.herokuapp.com/"><img src="https://fortunedotcom.files.wordpress.com/2015/10/stnmtz_20150716_68953.jpg?w=720&quality=85" width="250px" height="250px"></a>
-      <div class = "projectTag">NYT React Scraper</div>
-        <a href="https://github.com/blznk128/New-York_Times-React"><div class="github">Github Code</div></a>
-  </div>
-</div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
 
-<h2 class = "personalProjects">My Group Projects</h2>
-<div class="row">
-  <div class="col s6">
-    <img src="data:image/jpeg;base64,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" width="250px" height="250px">
-      <div class = "projectTag">Project One</div>
-        <a href="https://github.com/blznk128/Project_1"><div class="github">Github Code</div></a>
-  </div>
-  <div class="col s6">
-    <a href="https://mighty-citadel-26606.herokuapp.com/"><img src="data:image/jpeg;base64,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" width="250px" height="250px"></a>
-      <div class = "projectTag">Project Two</div>
-        <a href="https://github.com/blznk128/project_2"><div class="github">Github Code</div></a>
-  </div>
-</div>    
-</div>
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Shoreline</h4>
+              <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            </div>
+          </div>
+        </div>
 
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="./assets/js/particles.js"></script>
-<script src="./assets/js/time.js"></script>
-</body>
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="http://i.huffpost.com/gen/1216238/images/o-SHOCKED-PSYCHIC-facebook.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Psychic-Game</h4>
+                  <p class="mb-0 text-white-50">This application uses html, css to visualize the page, and uses JavaScript to randomize a letter the user needs to guess correct.
+                    JavaScript also keeps track of the users score and number of guesses.
+                  </p>
+                  <p>
+                    <a href="https://github.com/blznk128/Psychic-Game"target="_blank"><div class="github">Github Code</div></a>
+                    <a href="https://blznk128.github.io/Psychic-Game/"target="_blank"><div class="github">Demo</div></a>
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://vignette.wikia.nocookie.net/powerlisting/images/d/d3/2013-10-Blue-Crystal-Abstract.jpg/revision/latest?cb=20160227092023&format=original" width="800px" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Crystal Game</h4>
+                  <p class="mb-0 text-white-50">JavaScript chooses a random number at the start and the user tries to get to that number
+                    exactly, if the user goes over, its a loss! There is four crystals and each crystal picks a random number at the start so at
+                    first the user doesn't know the value of each crystal until they click on it.
+                  </p>
+                  <p>
+                    <a href="https://github.com/blznk128/unit-4-game"target="_blank"><div class="github">Github Code</div></a>
+                    <a href="https://blznk128.github.io/unit-4-game/"target="_blank"><div class="github">Demo</div></a>
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" id ="deathwing"src="https://images4.alphacoders.com/823/thumb-1920-82368.jpg" width="1300px" height="350px "alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Trivia Game</h4>
+                  <p class="mb-0 text-white-50">The object of this game is to answer as many questions as you can before the timer runs out!
+                    This application uses html, css and javascript. The javascript either at the end of the timer or when the user uses the done 
+                    button will check the users answers and calculate their score.
+                  </p>   
+                  <a href="https://github.com/blznk128/Trivia-Game"target="_blank"><div class="github">Github Code</div></a>
+                  <a href="https://blznk128.github.io/Trivia-Game/"target="_blank"><div class="github">Demo</div></a>           
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                  
+                </div>           
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://pbs.twimg.com/profile_images/1002272769352978433/9S4QWSR0_400x400.jpg"  alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Giphy</h4>
+                  <p class="mb-0 text-white-50">This appliation uses a api to get back information from the giphy website. User can enter anything
+                    like batman and a button will display. The user can click that button and gif's will populate. The gif's will be paused and 
+                    the user can click on them to make them play. This application uses html, css and javascript.
+                  </p>
+                  <a href="https://github.com/blznk128/GiphyHomework"target="_blank"><div class="github">Github Code</div></a>
+                  <a href="https://blznk128.github.io/GiphyHomework/"target="_blank"><div class="github">Demo</div></a>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://www.virginexperiencedays.co.uk/content/img/product/large/one-night-break-with-12113620.jpg" width="900px" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Train Schedular</h4>
+                  <p class="mb-0 text-white-50">This application lets the user put in their own train data like the name of the train and arrival times
+                    and frequency. Then when the user clicks add train, that information is then populated on a table and the javascript calculates when
+                    the next train will come in minutes. Technologies used are html, css, javascript and moment.
+                  </p>
+                  <a href="https://github.com/blznk128/TrainScheduler"target="_blank"><div class="github">Github Code</div></a>
+                  <a href="https://blznk128.github.io/TrainScheduler/"target="_blank"><div class="github">Demo</div></a>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://spectrum.ieee.org/image/Mjk4NzI0OA.jpeg" width="1300px" height="1300px" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Liri Bot</h4>
+                  <p class="mb-0 text-white-50">This is a back-end application that uses node.js and javascript with api calls. The user
+                    can use 3 different commands, "concert-this" and the name of the band, "spotify-this-song" followed by a song name, and 
+                    "movie-this" followed by a movie name. Depending on which command they use, it will send out a api call to the appropriate
+                    api and return information regarding the search parameter.
+                  </p>
+                  <a href="https://github.com/blznk128/liri-node-app"target="_blank"><div class="github">Github Code</div></a>
+                  <a href="https://www.youtube.com/watch?v=JC22Y9BEyc0&feature=youtu.be"target="_blank"><div class="github">Youtube Demo</div></a>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://boygeniusreport.files.wordpress.com/2017/10/amazon.jpg?quality=98&strip=all&w=782" width="600px" height="250px" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Bamazon</h4>
+                  <p class="mb-0 text-white-50">This is a back-end application that uses inquirer and javascript with mysql database. It's simulates
+                    amazon, the user runs the program and it will notify the user of available "stock" of certain items. The user then can decide
+                    what to buy and how many units and the application will calculate the inventory and costs of chosen items.
+                  </p>
+                  <p>
+                  <a href="https://github.com/blznk128/node-mysql"target="_blank"><div class="github">Github Code</div></a>
+                  <a href="https://www.youtube.com/watch?v=ItaU5ehituQ&feature=youtu.be"target="_blank"><div class="github">Youtube Demo</div></a>
+                </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://cdn.vox-cdn.com/thumbor/yx8IVnVHKHVYq_wGjLo8oK2TJ8U=/0x142:2592x2086/1200x800/filters:focal(0x142:2592x2086)/cdn.vox-cdn.com/uploads/chorus_image/image/40348734/friendscast.0.0.jpg" width="650px" height="250px" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Friend Finder</h4>
+                  <p class="mb-0 text-white-50">This is a full stack friend finder application that uses HTML, CSS, Body_Parser, Path, Express and Bootstrap. The 
+                    user answers 10 questions and then the back end will add up your score and match it with another profile and send back the users
+                    new "friend".
+                  </p>
+                  <p>
+                      <a href="https://github.com/blznk128/Friend-Finder"target="_blank"><div class="github">Github Code</div></a>
+                      <a href="https://intense-basin-30733.herokuapp.com/"target="_blank"><div class="github">Demo</div></a>
+                    </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://ih1.redbubble.net/image.174587692.6037/ap,550x550,16x12,1,transparent,t.u8.png" width="600px" height="250px" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Burger Logger</h4>
+                  <p class="mb-0 text-white-50">This full stack application lets users make their own burger and devour it. It uses mysql, html, css,
+                    express-handlesbars, express and node.
+                  </p>
+                  <p>
+                    <a href="https://github.com/blznk128/Burger-Logger"target="_blank"><div class="github">Github Code</div></a>
+                    <a href="https://radiant-castle-33104.herokuapp.com/"target="_blank"><div class="github">Demo</div></a>
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="http://bestanimations.com/Food/FastFood/hamburger-animated-gif-9.gif" width="600px" height="250px" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Burger The Sequel</h4>
+                  <p class="mb-0 text-white-50">This is a full stack application that uses html, css, sequelize, express and handlebars with node.js. 
+                    The user can make and devour their burger. This application uses the sequelize database to store all the users hamburger information.
+                  </p>
+                  <p>
+                    <a href="https://github.com/blznk128/Burger-Sequel"target="_blank"><div class="github">Github Code</div></a>
+                    <a href="https://whispering-mountain-58717.herokuapp.com/"target="_blank"><div class="github">Demo</div></a>
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://cdn3.bigcommerce.com/s-vw57mn/products/40160/images/117175/Hero-Arts-Cling-Stamps-Newspaper-Bold-Prints-857009156494_image1__21010.1517348776.600.600.jpg?c=2" width="650px" height="250px" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Mongo Scrapper</h4>
+                  <p class="mb-0 text-white-50">This full stack application uses express, mongoose, bodyParser, axios, and cheerio. The user can hit the 
+                    "scrape it up" button and the application will make a api call to the New York Times api and return the last current articles. The user 
+                    can then decide to save articles and delete the saved articles as well as make article notes.
+                  </p>
+                  <p>
+                    <a href="https://github.com/blznk128/Mongo-Scraper"target="_blank"><div class="github">Github Code</div></a>
+                    <a href="https://ancient-beyond-80294.herokuapp.com/"target="_blank"><div class="github">Demo</div></a>
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="https://www.whats-on-netflix.com/wp-content/uploads/2018/11/narcos-mexico-season-2-netflix-renewal-release.jpg" width="600px" height="250px" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Clicky Game</h4>
+                  <p class="mb-0 text-white-50">This is a react application where it challenges users memory. The user click on a picture and the application
+                    shuffles up all the pictures and the user can't click on a picture that they picked or they will lose. This application uses react.js.
+                  </p>
+                  <p>
+                    <a href="https://github.com/blznk128/Clicky-Game"target="_blank"><div class="github">Github Code</div></a>
+                    <a href="https://floating-refuge-31933.herokuapp.com/"target="_blank"><div class="github">Demo</div></a>
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+            <h2 class="text-white mb-5">Contact Me</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">Taylorsville, Ut</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <p>blznk128@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">801-502-9921</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social d-flex justify-content-center">
+          <a href="#" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://github.com/blznk128" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Benny Borunda 2019
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+    <script src="./js/typed.js"></script>
+    <script src="./js/typedInfo.js"></script>
+
+  </body>
+
 </html>
