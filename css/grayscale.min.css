@@ -27,3 +27,11 @@
      height: 370px!important;
      width: 557px!important;
  }
+
+ #projects {
+    background-color: #545555f6!important;
+  }
+
+  .text-black-50 {
+    color: rgba(255,255,255,.5)!important;
+  }
